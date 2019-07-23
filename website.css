@@ -1,0 +1,45 @@
+h1 {
+  background-color: rgb(255, 200, 0);
+  color: white;
+/*  font-weight: bold; */
+  font-size: 45px;
+}
+
+
+h1:hover {
+  background-color: rgb(120,0,96);
+}
+
+a {
+  color: rgb(120, 0, 96);
+  font-style: italic;
+  font-weight: bold;
+  padding: 10px 10px 10px 10px;
+}
+
+a:hover {
+  /* background-color: rgb(180,0,111); */
+  color: rgb(255, 200, 0);
+}
+
+h2 {
+  color: white;
+  
+}
+
+body {
+  background-color: rgb(255, 66, 60);
+  font-style: italic;
+}
+
+p {
+  color: rgb(120, 0, 96);
+  font-weight: bold;
+}
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
